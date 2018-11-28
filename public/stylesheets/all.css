@@ -1,0 +1,80 @@
+body {padding:0;margin:0;text-align:center;color:#666;font-size:12px;font-family:tahoma,arial,sans-serif;}
+h1, h2, h3, h4, h5, h6, form, div, p, i, img, ul, li, ol, table, tr, td,th, fieldset, label, legend,button,input { margin:0;padding:0;}
+li{list-style:none;}
+a img{border:none;}
+a:link{text-decoration:none;color:#cccccc;}
+a:visited{text-decoration:none;color:#cccccc;}
+a:active,a:hover{color:#cccccc;}
+
+.box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.rowBox {
+    flex-direction: row;
+}
+.columnBox {
+    flex-direction: column;
+}
+
+.leftArea {
+    /*width: 16.6666666%;*/
+    width: 230px;
+    position: relative;
+    z-index: 1;
+}
+.centerArea {
+    width: calc(100% - 460px);
+}
+.rightArea {
+    /*width: 16.6666666%;*/
+    width: 230px;
+    text-align: left;
+}
+
+/*leftArea*/
+.navbar ul {
+    margin-top: 90px;
+}
+.navbar ul li {
+    font-family: 'Museo900-Regular';
+    position: relative;
+    margin-bottom: 20px;
+}
+.bigMenu {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    top: calc(50% - 20px);
+    left: -200px;
+}
+.bigMenu a {
+    color: #000;
+}
+.smallMenu {
+    font-size: 24px;
+    writing-mode: vertical-lr;
+    writing-mode: tb-lr;
+    margin-left: 30px;
+}
+
+
+/*rightArea*/
+.logoBox {
+    width: 160px;
+}
+.logoBox img {
+    width: 100%;
+    margin-top: 40px;
+}
+.xnxwMsgBox {
+    font-family: 'Museo300-Regular';
+    font-size: 12px;
+}
+.copyrightBox {
+    font-family: 'Museo300-Regular';
+    font-size: 10px;
+    color: #808080;
+    position: absolute;
+    bottom: 25px;
+}

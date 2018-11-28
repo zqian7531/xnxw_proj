@@ -1,0 +1,20 @@
+@font-face {
+ font-family: 'Museo300-Regular';
+ src: url('fonts/Museo300-Regular.otf');
+}  
+@font-face {
+ font-family: 'Museo900-Regular';
+ src: url('fonts/Museo900-Regular.otf');
+} 
+@font-face {
+ font-family: 'ApolloMTStd';
+ src: url('fonts/ApolloMTStd.otf');
+} 
+@font-face {
+ font-family: 'exljbris - MuseoSlab-500';
+ src: url('fonts/exljbris - MuseoSlab-500.otf');
+} 
+@font-face {
+ font-family: 'exljbris - MuseoSlab-500Italic';
+ src: url('fonts/exljbris - MuseoSlab-500Italic.otf');
+}

@@ -1,0 +1,8 @@
+.homePageCoverBox {
+    width: 75vw;
+    transform: translateX(-230px);
+}
+.homePageCoverBox img {
+    width: 100%;
+    vertical-align: bottom;
+}

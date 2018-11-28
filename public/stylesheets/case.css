@@ -1,0 +1,43 @@
+@media only screen and (max-width: 930px)  {
+    .caseBox {
+        width: 36vw;
+        height: 24vw;
+    }
+}
+@media only screen and (min-width: 930px)  {
+    .caseBox {
+        width: 48vw;
+        height: 32vw;
+    }
+}
+@media only screen and (min-width: 1188px)  {
+    .caseBox {
+        width: 27vw;
+        height: 18vw;
+    }
+}
+@media only screen and (min-width: 1388px)  {
+    .caseBox {
+        width: 21vw;
+        height: 14vw;
+    }
+}
+.centerArea {
+    margin-top: 125px;
+    background: antiquewhite;
+    text-align: left;
+}
+.caseBox {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    background-image: url(../images/hifeng.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.caseMsgInnerBox {
+    height: 100%;
+    width: 66%;
+    background: rgba(0, 0, 0, 0.9);
+}
